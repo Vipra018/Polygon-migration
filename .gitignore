@@ -1,0 +1,38 @@
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+
+# Logging
+logs/
+*.log
+
+# Unit test and coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating System temporary files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.neon
+node_modules/
